@@ -4,9 +4,55 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	font-family: 'Nunito', 'Open Sans', 'Arial', 'sans serif';
+	background-color: #dcdcdc;
+}
 
+.piece-grid {
+	padding-top: 45px;
 
+}
 
+.row > div {
+	padding-bottom: 15px;
+}
+
+.piece {
+	width: 100%;
+	background-color: white;
+	border-radius: 8px;
+	float: left;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.piece-thumb-container {
+	width: calc(100% - 16px);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.byline-container {
+	width: calc(100% - 16px);
+	margin-left: 8px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.byline-img {
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;	
+}
+
+.byline-name {
+	float: left;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 8px;
+}
 
 
 
