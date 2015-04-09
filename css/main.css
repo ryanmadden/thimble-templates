@@ -1,8 +1,12 @@
+/* GLOBAL STYLING */
+
 body {
 	font-family: 'Nunito', 'Open Sans', 'Arial', 'sans serif';
 	background-color: #dcdcdc;
 }
 
+
+/* navbar styling - start */
 .navbar-default {
 	background-color: #031926;
 	background-image: none;
@@ -12,6 +16,7 @@ body {
 .navbar-default .navbar-brand {
 	color: #f4e9cd;
 	text-decoration: none;
+	font-size: 25px;
 }
 
 .navbar-default .navbar-brand:hover , .navbar-default .navbar-brand:focus {
@@ -70,7 +75,10 @@ body {
 	border-color: #031926;
 	box-shadow: none;
 }
+/* navbar-style end */
 
+
+/* STYLING FOR HOMEPAGE AND PROFILE PAGE */
 .piece-grid {
 	padding-top: 45px;
 
@@ -96,6 +104,7 @@ body {
 	padding-bottom: 10px;
 }
 
+/* STYLING FOR HOMEPAGE ONLY */
 .byline-container {
 	width: calc(100% - 16px);
 	margin-left: 8px;
