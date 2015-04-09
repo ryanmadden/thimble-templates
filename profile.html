@@ -11,16 +11,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <style>
-  body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-  }
-  </style>
-  <link rel="stylesheet" href="css/main.css">
 
-  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
+  <!-- GLOBAL STYLING -->
+  <link rel="stylesheet" href="css/global.css"> 
+  <!-- TILE STYLING FOR HOME AND PROFILE PAGES -->
+  <link rel="stylesheet" href="css/tiles.css">
+  <!-- PROFILE PAGE SPECIFIC STYLING -->
+  <link rel="stylesheet" href="css/profile.css">
+  <!-- LOAD GOOGLE FONT -->
   <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -61,6 +59,30 @@
   </nav>
 
   <div class="container">
+    <div class="profile-header">
+      <div class="profile-line profile-line-left">
+        <p class="text-followers">12<br>Followers</p>
+        <p class="text-following">15<br>Following</p>
+      </div>
+      <div class="profile-pic-block">
+        <div class="profile-pic-wrapper">
+          <img src="http://placemi.com/200x200" class="img-responsive img-circle">
+        </div>
+      </div>
+      <div class="profile-line profile-line-right">
+        <p class="text-favorites">8<br>Favorites</p>
+        <p class="text-pieces">4<br>Pieces</p>
+      </div>
+    </div>
+    <h2 class="profile-name">Jane Doe</h2>
+    <div class="follow-wrapper">
+      <button class="follow-btn">Follow +</button>
+    </div>  
+    <div class="bio-wrapper">
+      <p class="bio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum est eget purus condimentum, eget posuere tellus euismod.</p>
+    </div>
+
+
     <div class="row piece-grid">
       <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
         <div class="piece">
@@ -81,9 +103,68 @@
             </div>
             <img src="http://placemi.com/400x550" class="img-responsive">
           </div>
-          <div class="byline-container">
-            <img src="http://placemi.com/35x35" class="img-responsive img-circle byline-img">
-            <h5 class="byline-name">Jane Doe</h5>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="piece">
+          <div class="piece-thumb-container">
+            <div class="piece-overlay">
+              <p><strong>Piece Title</strong></p>
+              <p>4.14.15</p>
+              <br></br>
+              <p> <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>  14,123</p>
+              <p> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>  1,384</p>
+              <p> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>  45</p>
+              <button type="button" class="btn btn-default btn-lg">
+                Like <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="btn btn-default btn-lg">
+                Share <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              </button>
+            </div>
+            <img src="http://placemi.com/400x550" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="piece">
+          <div class="piece-thumb-container">
+            <div class="piece-overlay">
+              <p><strong>Piece Title</strong></p>
+              <p>4.14.15</p>
+              <br></br>
+              <p> <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>  14,123</p>
+              <p> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>  1,384</p>
+              <p> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>  45</p>
+              <button type="button" class="btn btn-default btn-lg">
+                Like <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="btn btn-default btn-lg">
+                Share <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              </button>
+            </div>
+            <img src="http://placemi.com/400x550" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="piece">
+          <div class="piece-thumb-container">
+            <div class="piece-overlay">
+              <p><strong>Piece Title</strong></p>
+              <p>4.14.15</p>
+              <br></br>
+              <p> <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>  14,123</p>
+              <p> <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>  1,384</p>
+              <p> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>  45</p>
+              <button type="button" class="btn btn-default btn-lg">
+                Like <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="btn btn-default btn-lg">
+                Share <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              </button>
+            </div>
+            <img src="http://placemi.com/400x550" class="img-responsive">
           </div>
         </div>
       </div>
